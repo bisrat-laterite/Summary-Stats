@@ -25,7 +25,7 @@ server='laterite'
 
 #surveycto username and password
 username='bgetachew@laterite.com'
-password='Birtukan1959'
+password=pw
 ok=requests.get(f'https://{server}.surveycto.com/api/v2/forms/data/wide/json/{formid}?date=0', auth=(username, password))
 
 data=pd.DataFrame(ok.json())
