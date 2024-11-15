@@ -1,4 +1,4 @@
-name: GAGE CR summary stats
+name: GAGE
 
 on:
   schedule:
