@@ -781,8 +781,9 @@ def filtering_unnecessary(survey):
     #filtering out disabled and label question
     filter_disable=survey['disabled'] !="yes"
     filter_label=survey['appearance'] !="label"
+    filter_publish=survey['publishable']!=""
     #filtering out disabled and variable which are just labels
-    survey=survey[filter_disable & filter_label]
+    survey=survey[filter_disable & filter_label & filter_publish]
     return survey
 
 #getting type and label of a question
