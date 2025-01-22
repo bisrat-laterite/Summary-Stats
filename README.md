@@ -1,0 +1,1 @@
+This Repo downloads data from a surveycto Server and runs summary stats for all numeric(integer and decimal), select_one and select_multipple fields exporting the outputs to a google sheets dashboard for visibility.
